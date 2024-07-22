@@ -16,6 +16,13 @@ public class User {
     @Column(name = "password")
     private Double password;
 
+    @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
+    private Account account;
+
+    public User(){
+
+    }
+
     public User(Long userId, String name, Double password) {
         this.userId = userId;
         this.name = name;

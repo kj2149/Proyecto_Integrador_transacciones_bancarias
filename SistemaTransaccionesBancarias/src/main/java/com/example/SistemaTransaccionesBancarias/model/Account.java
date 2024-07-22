@@ -2,6 +2,9 @@ package com.example.SistemaTransaccionesBancarias.model;
 
 import jakarta.persistence.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Entity
 @Table(name = "account")
 public class Account {
@@ -15,6 +18,20 @@ public class Account {
 
     @Column(name = "balance")
     private Double balance;
+
+    @OneToOne
+    @JoinColumn(name = "user_id", referencedColumnName = "user_id")
+    private User user;
+
+    @OneToMany(mappedBy = "account", cascade = CascadeType.ALL)
+    private List<Pocket> pocket = new ArrayList<>();
+
+    @OneToMany(mappedBy = "account", cascade = CascadeType.ALL)
+    private List<Transaction> transaction = new ArrayList<>();
+
+    public Account() {
+
+    }
 
 
 

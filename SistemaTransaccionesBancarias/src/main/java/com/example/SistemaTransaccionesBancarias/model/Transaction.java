@@ -21,6 +21,15 @@ public class Transaction {
     @Column(name = "date")
     private LocalDate date;
 
+    @ManyToOne
+    @JoinColumn(name = "account_number", referencedColumnName = "account_number")
+    private Account account;
+
+    @ManyToOne
+    @JoinColumn(name = "pocket_number", referencedColumnName = "pocket_number")
+    private Pocket pocket;
+
+
     public Transaction(Long transactionId, String type, Double amount, LocalDate date) {
         this.transactionId = transactionId;
         this.type = type;
