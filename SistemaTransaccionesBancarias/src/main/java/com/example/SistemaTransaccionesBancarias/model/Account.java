@@ -19,6 +19,9 @@ public class Account {
     @Column(name = "balance")
     private Double balance;
 
+    @Column(name = "blocked")
+    private boolean blocked;
+
     @OneToOne
     @JoinColumn(name = "user_id", referencedColumnName = "user_id")
     private User user;
@@ -39,6 +42,7 @@ public class Account {
         this.accountNumber = accountNumber;
         this.ownerName = ownerName;
         this.balance = balance;
+        this.blocked = false;
     }
 
     public Long getAccountNumber() {
@@ -63,5 +67,13 @@ public class Account {
 
     public void setBalance(Double balance) {
         this.balance = balance;
+    }
+
+    public boolean isBlocked() {
+        return blocked;
+    }
+
+    public void setBlocked(boolean blocked) {
+        this.blocked = blocked;
     }
 }
