@@ -12,11 +12,11 @@ public class TransactionService {
     @Autowired
     private TransactionRepository transactionRepository;
 
-    public Transaction registrarTransaccon(Transaction transaccion) {
+    public Transaction registerTransaction(Transaction transaccion) {
         return transactionRepository.save(transaccion);
     }
 
-    public List<Transaction> obtenerTransacciones() {
+    public List<Transaction> getTransaction() {
         return transactionRepository.findAll();
     }
 }
