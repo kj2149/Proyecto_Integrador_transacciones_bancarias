@@ -23,6 +23,10 @@ dependencies {
 	runtimeOnly 'com.mysql:mysql-connector-j'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+	// https://mvnrepository.com/artifact/io.swagger.core.v3/swagger-annotations
+	// group: 'io.swagger.core.v3', name: 'swagger-annotations', version: '2.2.20'
+	implementation 'org.springdoc:springdoc-openapi-ui:1.6.9'
+
 }
 
 tasks.named('test') {
