@@ -4,12 +4,14 @@ import com.example.SistemaTransaccionesBancarias.exceptions.AccountNotFoundExcep
 import com.example.SistemaTransaccionesBancarias.exceptions.InsufficientFundsException;
 import com.example.SistemaTransaccionesBancarias.model.Account;
 import com.example.SistemaTransaccionesBancarias.service.AccountService;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
-
+@Tag(name = "Sistema Transacciones Bancarias resource")
 @RestController
 @RequestMapping("api/v1/account")
 public class AccountController {
@@ -21,18 +23,21 @@ public class AccountController {
         this.accountService = accountService;
     }
 
+    @Operation(summary = "post in DB an account given an account from body")
     @PostMapping("/open")
     public ResponseEntity<Account> openAccount(@RequestBody Account account) {
         Account newAccount = accountService.accountOpening(account);
         return ResponseEntity.ok(newAccount);
     }
 
+    @Operation(summary = "get an account given an account name")
     @GetMapping("/check/{accountNumber}")
     public ResponseEntity<Account> checkAccount(@PathVariable Long accountNumber) {
         Optional<Account> account = accountService.checkAccount(accountNumber);
         return account.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());
     }
 
+    @Operation(summary = "post in DB an account given an account from body")
     @PostMapping("/deposit/{accountNumber}")
     public ResponseEntity<String> deposit(@PathVariable Long accountNumber, @RequestBody Double amount) {
         try {
@@ -43,6 +48,7 @@ public class AccountController {
         }
     }
 
+    @Operation(summary = "post in DB an account given an account from body")
     @PostMapping("/transfer")
     public ResponseEntity<String> transfer(@RequestParam Long from, @RequestParam Long to, @RequestParam Double amount) {
         try {
@@ -53,6 +59,7 @@ public class AccountController {
         }
     }
 
+    @Operation(summary = "post in DB an account given an account from body")
     @PostMapping("/block/{accountNumber}")
     public ResponseEntity<String> blockAccount(@PathVariable Long accountNumber) {
         try {
@@ -63,6 +70,7 @@ public class AccountController {
         }
     }
 
+    @Operation(summary = "post in DB an account given an account from body")
     @PostMapping("/unblock/{accountNumber}")
     public ResponseEntity<String> unblockAccount(@PathVariable Long accountNumber) {
         try {
