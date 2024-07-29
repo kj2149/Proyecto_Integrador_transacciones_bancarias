@@ -26,3 +26,6 @@ PocketBank es una innovadora solución de monedero virtual que permite a los usu
 ```bash
 git clone https://github.com/tu_usuario/pocketbank.git
 cd pocketbank
+
+![git](git.png)
+![java](java32.png)
