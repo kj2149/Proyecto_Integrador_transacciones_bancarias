@@ -1,3 +1,5 @@
+![makaia](logo-4.jpg)
+
 # PocketBank API
 
 ## Descripción
