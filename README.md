@@ -1,6 +1,5 @@
 ![Logo de PocketBank](logo-4.jpg)
 
-<img src="logo-4.jpg" alt="Logo de PocketBank" style="border-radius: 50%; width: 150px; height: 150px;">
 
 # PocketBank API
 
