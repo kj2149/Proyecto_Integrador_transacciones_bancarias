@@ -20,6 +20,8 @@ PocketBank es una innovadora solución de monedero virtual que permite a los usu
 - MySQL 5.7 o superior
 
 ## Instalación
+![git](git.png)
+![java](java32.png)
 
 ### Clonar el Repositorio
 
@@ -27,5 +29,4 @@ PocketBank es una innovadora solución de monedero virtual que permite a los usu
 git clone https://github.com/tu_usuario/pocketbank.git
 cd pocketbank
 
-![git](git.png)
-![java](java32.png)
+
