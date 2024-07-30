@@ -1,4 +1,4 @@
-!https://github.com/kj2149/Proyecto_Integrador_transacciones_bancarias/blob/main/Banner.png?raw=true
+[![Banner.png](https://i.postimg.cc/wBH1PpYX/Banner.png)](https://postimg.cc/75sPGj6h)
 
 
 # PocketBank API
