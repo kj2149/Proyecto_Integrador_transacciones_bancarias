@@ -26,8 +26,12 @@ El objetivo de PocketBank es proporcionar una plataforma integral para la gesti√
 
 ## Tecnolog√≠as Utilizadas
 * Lenguaje: Java
+![java](java32.png)
 * Framework: Spring boot
+![spring-logo](spring-logo.png)
 * Base de datos: PostgreSQL
+* Git
+![git](git.png)
 
 
 ## Contributors contacts
