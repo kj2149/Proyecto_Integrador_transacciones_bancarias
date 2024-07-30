@@ -1,4 +1,4 @@
-[![Banner.png](https://i.postimg.cc/wBH1PpYX/Banner.png)](https://postimg.cc/75sPGj6h)
+ [![Banner.png](https://i.postimg.cc/wBH1PpYX/Banner.png)](https://postimg.cc/75sPGj6h)
 
 
 <h1 align="center"> PocketBank Api </h1>
@@ -30,7 +30,7 @@ El objetivo de PocketBank es proporcionar una plataforma integral para la gesti√
 * Framework: Spring boot
 ![spring-logo](spring-logo.png)
 * Base de datos: PostgreSQL
-![postgresl](postgresl.png)
+![postgresql](postgresql.png)
 * Git
 ![git](git.png)
 
