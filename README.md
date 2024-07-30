@@ -1,11 +1,15 @@
 [![Banner.png](https://i.postimg.cc/wBH1PpYX/Banner.png)](https://postimg.cc/75sPGj6h)
 
 
-# PocketBank API
+<h1 align="center"> PocketBank Api </h1>
 
 ## Descripción
 
-PocketBank es una innovadora solución de monedero virtual que permite a los usuarios gestionar su dinero de forma más eficiente y accesible, conectándose a cualquier cuenta bancaria. Con PocketBank, puedes crear subcuentas o “bolsillos”, realizar transferencias, consultar saldos y más, todo desde una única aplicación.
+PocketBank es una innovadora solución de monedero virtual que permite a los usuarios gestionar su dinero de forma más eficiente y accesible, conectándose a cualquier cuenta bancaria. Con funcionalidades que abarcan desde la gestión de cuentas y usuarios hasta bolsillos digitales y transacciones. Ofreciendole a los usuarios una plataforma financiera integral.
+
+## Objetivo
+
+El objetivo de PocketBank es proporcionar una plataforma integral para la gestión financiera personal.
 
 ## Características
 
@@ -14,20 +18,23 @@ PocketBank es una innovadora solución de monedero virtual que permite a los usu
 - **Operaciones Bancarias**: Depósitos, transferencias y consultas de cuentas.
 - **Facilidad de Uso**: API RESTful fácil de integrar con otras aplicaciones.
 
-## Requisitos del Sistema
+## Diagrama UML
+[![UML-Transaciones-Bancarias-drawio-1.png](https://i.postimg.cc/brGMj4fg/UML-Transaciones-Bancarias-drawio-1.png)](https://postimg.cc/64Xzrj34)
 
-- Java 11 o superior
-- Maven 3.6.0 o superior
-- MySQL 5.7 o superior
+## Diagrama Entidad-Relación
+[![Diagrama-Entidad-Relacion.png](https://i.postimg.cc/KzTqqBPp/Diagrama-Entidad-Relacion.png)](https://postimg.cc/WF2wtDf0)
 
-## Instalación
-![git](git.png)
-![java](java32.png)
+## Tecnologías Utilizadas
+* Lenguaje: Java
+* Framework: Spring boot
+* Base de datos: PostgreSQL
 
-### Clonar el Repositorio
 
-```bash
-git clone https://github.com/tu_usuario/pocketbank.git
-cd pocketbank
+## Contributors contacts
+* Jhoannys Mencía
+* Email: jhoannysmencia09@gmail.com
+* Camilo Sierra
+* Email: Andres.sierra2149@gmail.com
+
 
 
