@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.SistemaTransaccionesBancarias.PocketServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-07-30T04:25:13" hostname="YIDDAY" time="0.244">
-  <properties/>
-  <testcase name="whenCheckPocket_thenFindById()" classname="com.example.SistemaTransaccionesBancarias.PocketServiceTest" time="0.194"/>
-  <testcase name="whenPocketOpening_thenSavePocket()" classname="com.example.SistemaTransaccionesBancarias.PocketServiceTest" time="0.041"/>
-  <testcase name="whenTransfer_thenUpdateBalance()" classname="com.example.SistemaTransaccionesBancarias.PocketServiceTest" time="0.004"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

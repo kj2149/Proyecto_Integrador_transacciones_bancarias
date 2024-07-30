@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.SistemaTransaccionesBancarias.UserServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-07-30T04:25:41" hostname="YIDDAY" time="0.103">
-  <properties/>
-  <testcase name="getUsers_whenCalled()" classname="com.example.SistemaTransaccionesBancarias.UserServiceTest" time="0.097"/>
-  <testcase name="createUser_whenUserIsValid()" classname="com.example.SistemaTransaccionesBancarias.UserServiceTest" time="0.005"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
