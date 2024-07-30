@@ -30,7 +30,7 @@ El objetivo de PocketBank es proporcionar una plataforma integral para la gesti√
 * Framework: Spring boot
 ![spring-logo](spring-logo.png)
 * Base de datos: PostgreSQL
-![postgresql](postgresql.png)
+![postgresql](postgresql-icon.png)
 * Git
 ![git](git.png)
 
