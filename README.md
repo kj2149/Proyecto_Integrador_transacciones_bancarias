@@ -32,7 +32,7 @@ El objetivo de PocketBank es proporcionar una plataforma integral para la gesti√
 * Base de datos: PostgreSQL
 * Git
 ![git](git.png)
-![spring-logo](spring-logo.png)
+
 
 ## Contributors contacts
 * Jhoannys Menc√≠a
